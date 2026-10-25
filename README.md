@@ -1,2 +1,25 @@
-# portfolio
-A responsive personal portfolio website for Wafaa Sous, a software engineering student. Built with semantic HTML and custom CSS (Flexbox, Grid, and CSS-only animations), it features a mobile-first layout, a collapsible navigation menu, and sections for About, Skills, Projects, and Contact.
+# Wafaa Sous | Portfolio
+
+A responsive, mobile-first portfolio website showcasing my skills, projects, and contact information as a software developer and software engineering student.
+
+## Features
+- Fully responsive layout (mobile, tablet, desktop)
+- CSS-only hamburger menu with smooth transitions
+- Sticky header with smooth-scroll navigation
+- Hero section with an arched profile photo
+- Skills section with tag-style cards and hover effects
+- Projects grid built with CSS Grid
+- Contact section with direct links (Email, LinkedIn, GitHub, WhatsApp) and a contact form
+
+## Built With
+- HTML5
+- CSS3 (Flexbox, Grid, media queries, transitions)
+
+## Getting Started
+1. Clone the repo:
+   `git clone https://github.com/wafaaa-ss/<repo-name>.git`
+2. Open `index.html` in your browser, or run it with Live Server in VS Code.
+
+## Contact
+- GitHub: [github.com/wafaaa-ss](https://github.com/wafaaa-ss)
+- LinkedIn: [linkedin.com/in/wafaa-sous](https://linkedin.com/in/wafaa-sous)
