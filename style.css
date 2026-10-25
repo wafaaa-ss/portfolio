@@ -21,7 +21,7 @@ body{
 img{
     max-width: 100%;
     display: block;
-    filter: contrast(110%) brightness(110%);
+    /* filter: contrast(110%) brightness(110%); */
 }
 
 .site-header{
