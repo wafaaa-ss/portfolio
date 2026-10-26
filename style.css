@@ -536,6 +536,17 @@ ul{
   gap: 8px;
 }
 .site-footer a:hover { color: #ffffff; }
+
+
+@media (max-width: 760px) {
+  .hero-photo img {
+    width: 100%;
+    max-width: 300px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center bottom;
+  }
+}
  
 
 @media (min-width: 640px) {
@@ -607,7 +618,7 @@ ul{
 @media (min-width: 1024px){
   .projects-grid { grid-template-columns: repeat(6, 1fr); }
   .project-card { grid-column: span 2; }                    /* 3 cards per row */
-  .project-card:nth-child(n + 4) { grid-column: span 2; }
+  /* .project-card:nth-child(n + 4) { grid-column: span 2; } */
   .projects-grid { 
     grid-template-columns: repeat(6, 1fr);
    }
@@ -615,9 +626,9 @@ ul{
     grid-column: span 2;
     /* I specify for each project card to take 2 out of 6 of the columns available, so I will get 3 cards per row*/
    }
-  .project-card:nth-child(n + 4) { 
+  /* .project-card:nth-child(n + 4) { 
     grid-column: span 2;
-   }
+   } */
 
    .contact-list li a{
     overflow-x: hidden;
