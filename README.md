@@ -1,6 +1,6 @@
 # Wafaa Sous | Portfolio
 
-A responsive, mobile-first portfolio website showcasing my skills, projects, and contact information as a software developer and software engineering student.
+A responsive, mobile-first portfolio website showcasing my skills, projects, and contact information as a software engineering student.
 
 ## Features
 - Fully responsive layout (mobile, tablet, desktop)
