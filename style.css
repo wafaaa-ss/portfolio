@@ -440,6 +440,8 @@ ul{
   border: 1px solid #006666;
   border-radius: 16px;
   transition: background 0.25s, transform 0.25s;
+  /* overflow-wrap: wrap; */
+  overflow-x:scroll;
 }
 
 .contact-list a:hover {
@@ -605,7 +607,7 @@ ul{
 @media (min-width: 1024px){
   .projects-grid { grid-template-columns: repeat(6, 1fr); }
   .project-card { grid-column: span 2; }                    /* 3 cards per row */
-  .project-card:nth-child(n + 4) { grid-column: span 3; }   /* last 2 cards are wider */
+  .project-card:nth-child(n + 4) { grid-column: span 2; }
   .projects-grid { 
     grid-template-columns: repeat(6, 1fr);
    }
@@ -614,7 +616,10 @@ ul{
     /* I specify for each project card to take 2 out of 6 of the columns available, so I will get 3 cards per row*/
    }
   .project-card:nth-child(n + 4) { 
-    grid-column: span 3;
-    /*for the 4th card and what comes after it, each will take 3 out of 6, so two cards will be displayed on the screen.*/
+    grid-column: span 2;
+   }
+
+   .contact-list li a{
+    overflow-x: hidden;
    }
   }
